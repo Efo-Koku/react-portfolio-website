@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
-import { HiOutlineMail} from 'react-icons/hi'
+// import { HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 //make sure any react icon I use has the "fa" if not there'll be an error.
 import Logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
+import CV from '../assets/CV.pdf'
 
 
 
@@ -102,26 +103,26 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/efo-kokuavornyo/" target="_blank" rel="noopener noreferrer">
                     Linkedin <FaLinkedin size={30} />
                     </a>
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/Efo-Koku?tab=repositories" target="_blank" rel="noopener noreferrer">
                     GitHub <FaGithub size={30} />
                     </a>
                 </li>
 
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#607EAA]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#607EAA]'>
+                    <a className='flex justify-between items-center w-full text-gray-300'  href="/">
                     Email <HiOutlineMail size={30} />
                     </a>
-                </li>
+                </li> */}
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#127681]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
-                    CV <BsFillPersonLinesFill size={30} />
+                    <a className='flex justify-between items-center w-full text-gray-300' href={CV} download>
+                    Download CV <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
             </ul>
