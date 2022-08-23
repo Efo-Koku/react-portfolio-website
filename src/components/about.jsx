@@ -17,7 +17,7 @@ const about = () => {
                     <p>Hi, I'm Efo, welcome to my portfolio website. Enjoy having a look around.</p>
                 </div>
                 <div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur laboriosam sapiente magni saepe quaerat, voluptatibus fuga necessitatibus eos dolorum et quis? Amet hic impedit, illum optio doloribus labore voluptatum quis molestiae! Distinctio, voluptate temporibus dolores quisquam, deleniti molestias autem quaerat voluptatibus, totam cumque mollitia reiciendis facere libero cupiditate unde.
+                  <p> I am a software developer focused on building the frontend of web applications. I enjoy creating clean and simple interfaces that incorporate good design skills that allow for a positive user experience. I enjoy what I do and I remain inquisitive and excited by the prospect of improving my existing skills and learning new ones.
                   </p>
                 </div>
           </div>
