@@ -2,6 +2,8 @@ import React from "react";
 import ProjectImg from "../assets/projectImg.png";
 import realEstate from "../assets/realEstate.png";
 import reactPortfolio from "../assets/reactportfolio.png";
+import ezutsi from "../assets/ezutsi-photography.png";
+
 
 const Work = () => {
   return (
@@ -30,13 +32,13 @@ const Work = () => {
                 React Portfolio Website
               </span>
               <div className="pt-8 text-center">
-                <a href="https://efo-kokuportfoliosite.netlify.app/" target="_blank" rel="noopener noreferrer"> {/* Make sure to include a link to a working software application here... */}
+                <a href="https://efo-kokuportfoliosite.netlify.app/" target="_blank" rel="noopener noreferrer"> 
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
 
-                <a href="https://github.com/Efo-Koku/react-portfolio-website" target="_blank" rel="noopener noreferrer"> {/* Make sure to include a link to GitHub here where people can see my code and commits etc... */}
+                <a href="https://github.com/Efo-Koku/react-portfolio-website" target="_blank" rel="noopener noreferrer"> 
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -48,23 +50,23 @@ const Work = () => {
 
         {/* Grid Item */}
           <div 
-          style={{backgroundImage: `url(${realEstate})` }}
+          style={{backgroundImage: `url(${ezutsi})` }}
           className="shadow-lg shadow-[#e8eced] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
            
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Ezutsi Photography 
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://ezutsi-photography.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
 
-                <a href="/">
+                <a href="https://github.com/Efo-Koku/ezutsi-photography" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
