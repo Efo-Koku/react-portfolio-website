@@ -1,8 +1,7 @@
 import React from "react";
-import ProjectImg from "../assets/projectImg.png";
-import realEstate from "../assets/realEstate.png";
-import reactPortfolio from "../assets/reactportfolio.png";
+import reactPortfolio from "../assets/react-portfolio-website.png";
 import ezutsi from "../assets/ezutsi-photography.png";
+import ToDo from "../assets/ToDo.png";
 
 
 const Work = () => {
@@ -78,14 +77,13 @@ const Work = () => {
 
             {/* Grid Item */}
           <div 
-          style={{backgroundImage: `url(${reactPortfolio})` }}
-          className="shadow-lg shadow-[#e8eced] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
+          style={{backgroundImage: `url(${ToDo})` }}
+          className="shadow-lg shadow-[#e8eced] group container rounded-md flex justify-center items-center mx-auto content-div">
            
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                ToDo 
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -106,7 +104,7 @@ const Work = () => {
 
         {/* Grid Item */}
           <div 
-          style={{backgroundImage: `url(${realEstate})` }}
+          style={{backgroundImage: `url(${ezutsi})` }}
           className="shadow-lg shadow-[#e8eced] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
            
@@ -135,7 +133,7 @@ const Work = () => {
 
           {/* Grid Item */}
           <div 
-          style={{backgroundImage: `url(${ProjectImg})` }}
+          style={{backgroundImage: `url(${ToDo})` }}
           className="shadow-lg shadow-[#e8eced] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
            
@@ -163,7 +161,7 @@ const Work = () => {
 
                   {/* Grid Item */}
                   <div 
-          style={{backgroundImage: `url(${realEstate})` }}
+          style={{backgroundImage: `url(${reactPortfolio})` }}
           className="shadow-lg shadow-[#e8eced] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
            
