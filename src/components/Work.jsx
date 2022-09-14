@@ -2,6 +2,7 @@ import React from "react";
 import reactPortfolio from "../assets/react-portfolio-website.png";
 import ezutsi from "../assets/ezutsi-photography.png";
 import ToDo from "../assets/ToDo.png";
+import blogbuster from "../assets/blogbuster.png"
 
 
 const Work = () => {
@@ -104,7 +105,7 @@ const Work = () => {
 
         {/* Grid Item */}
           <div 
-          style={{backgroundImage: `url(${ezutsi})` }}
+          style={{backgroundImage: `url(${blogbuster})` }}
           className="shadow-lg shadow-[#e8eced] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
            
